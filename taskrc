@@ -20,3 +20,10 @@ function jupyterlab_start {
     cd $PynotebooksDir && jupyter lab
 
 }
+
+function jupyter_github_push {
+    cd $PynotebooksDir && git add . && git commit -m "jupyter_github_push()"  && git commit
+    cd $PynotebooksDir/intro_programming && git add . && git commit -m "jupyter_github_push()"  && git commit
+
+}
+
