@@ -8,3 +8,15 @@
 # }
 
 
+PYNOTEBOOKS=1
+
+PynotebooksDir=/c/Projects/py-notebooks
+
+export BROWSER='/c/Program Files (x86)/Google/Chrome/Application/chrome.exe'
+
+function jupyterlab_start {
+    #Help Start jupyterlab server in the py-notebooks folder
+
+    cd $PynotebooksDir && jupyter lab
+
+}
