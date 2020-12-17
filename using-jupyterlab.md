@@ -1,5 +1,9 @@
-# Using Jupyterlab
+# Using Jupyter Notebooks
 
+## From VSCode:
+- Open a `.ipynb`, VSCode will prompt you to install the extension.  Notebook runs internally
+
+## From the command line with Jupyterlab:
 1.  Open a Windows Terminal with bash:  `Start > Terminal`
 
 2.  Run `jupyterlab_start`
